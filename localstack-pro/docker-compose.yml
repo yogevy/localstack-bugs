@@ -12,5 +12,5 @@ services:
         ports:
             - '4566-4597:4566-4597'
         volumes:
-            - '/tmp/localstack-example:/var/lib/localstack'
+            - '/tmp/localstack-example-volume:/var/lib/localstack'
             - '/var/run/docker.sock:/var/run/docker.sock'
